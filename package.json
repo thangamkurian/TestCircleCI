@@ -1,0 +1,22 @@
+{
+  "name": "circleci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+      "express": "3.2.4",
+      "ejs": "~0.7.1",
+      "mocha": "1.20.1",
+      "supertest": "1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+      "start":"node app.js"
+  },
+  "author": "Thangam",
+  "license": "ISC"
+}
